@@ -1,0 +1,47 @@
+{
+  "name": "codename-limo",
+  "version": "0.0.0",
+  "description": "limo is a starter webpack",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --env production",
+    "start": "webpack-dev-server --env development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FarzadKarkhani/codename-limo.git"
+  },
+  "keywords": [
+    "video sharing",
+    "media",
+    "search",
+    "telegram",
+    "lahzenegar"
+  ],
+  "author": "Farzad Karkhani",
+  "license": "MIT",
+  "homepage": "https://github.com/FarzadKarkhani/codename-limo",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.12.0",
+    "eslint-loader": "^1.9.0",
+    "webpack": "^3.8.1",
+    "style-loader": "^0.18.2",
+    "purify-css": "^1.2.5",
+    "purifycss-webpack": "^0.7.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "optimize-css-assets-webpack-plugin": "^3.0.0",
+    "webpack-dev-server": "^2.6.1",
+    "webpack-merge": "^4.1.0",
+    "webpack-zip-plugin": "^0.1.2",
+    "zip-webpack-plugin": "^2.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "extract-text-webpack-plugin": "^3.0.2"
+  }
+}
